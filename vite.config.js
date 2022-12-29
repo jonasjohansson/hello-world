@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-	base: '/hello-world/',
+	// base: '/hello-world/',
 	server: {
 		open: '/index.html',
 	},
 	build: {
-		outDir: '../docs',
+		outDir: '../dist',
 	},
 	root: 'src',
 })
